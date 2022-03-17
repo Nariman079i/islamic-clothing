@@ -26,3 +26,4 @@ class Types(models.Model):
     class Meta:
         verbose_name = 'Тип'
         verbose_name_plural = 'Типы'
+        ordering = ('-id',)

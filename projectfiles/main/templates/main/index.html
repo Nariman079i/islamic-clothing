@@ -10,42 +10,28 @@
 </head>
 <body>
     <div class="page">
+        {% for p in posts %}
+        {% if p.on_view_price == True %}
         <div class="block">
             <div class="img">
-                <img class="imgfile " src="/Users/1/Desktop/Проекты/Проект для аявки/1.jpeg" width="300px" height="300px" alt="">
+                <img class="imgfile " src="{{ p.photo.url }}" width="300px" height="300px" alt="">
             </div>
             <div class="title">
-                JilBab 
+                {{ p.title }}
             </div>
             <div class="type">
-        Лён
+        {{ p.type_cl }}
             </div>
             <div class="color">
-        Хаки
+                {{ p.color }}
             </div>
             <div class="price">
-        3500р
+                {{ p.price }}р
             </div>
-        
+
         </div>
-        <div class="block">
-            <div class="img">
-                <img class="imgfile " src="/Users/1/Desktop/Проекты/Проект для аявки/1.jpeg" width="300px" height="300px" alt="">
-            </div>
-            <div class="title">
-                JilBab 
-            </div>
-            <div class="type">
-        Лён
-            </div>
-            <div class="color">
-        Хаки
-            </div>
-            <div class="price">
-        3500р
-            </div>
-        
-        </div>
+        {% endif %}
+        {% endfor%}
     </div>
     
     <style>

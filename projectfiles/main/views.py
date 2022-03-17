@@ -1,13 +1,12 @@
 from django.shortcuts import render
-
+from .models import *
 def index(request):
 
-    titles = {
-        'ico':'hello world',
-        'title_doc':'test dictionary'
-    }
+
     url_file = 'main/index.html'
+    posts = Clothing.objects.all()
+
     context = {
-        'title':titles
+        'posts':posts
     }
-    return render(request , url_file , context=context)
+    return render(request , url_file  ,context)
