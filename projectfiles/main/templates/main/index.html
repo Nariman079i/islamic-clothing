@@ -1,10 +1,101 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
+    <div class="page">
+        <div class="block">
+            <div class="img">
+                <img class="imgfile " src="/Users/1/Desktop/Проекты/Проект для аявки/1.jpeg" width="300px" height="300px" alt="">
+            </div>
+            <div class="title">
+                JilBab 
+            </div>
+            <div class="type">
+        Лён
+            </div>
+            <div class="color">
+        Хаки
+            </div>
+            <div class="price">
+        3500р
+            </div>
+        
+        </div>
+        <div class="block">
+            <div class="img">
+                <img class="imgfile " src="/Users/1/Desktop/Проекты/Проект для аявки/1.jpeg" width="300px" height="300px" alt="">
+            </div>
+            <div class="title">
+                JilBab 
+            </div>
+            <div class="type">
+        Лён
+            </div>
+            <div class="color">
+        Хаки
+            </div>
+            <div class="price">
+        3500р
+            </div>
+        
+        </div>
+    </div>
+    
+    <style>
+        * {
+            font-family: sans-serif;
+            
+        }
+        @media  screen and (max-width:768px) {
+            .page{
+            display: none;
+            
 
+        }
+        
+        .block{
+            grid-column: none;
+        }
+        }
+        .page{
+            display:grid;
+        }
+        .block{
+           
+            width: 300px;
+            height: 400px ;
+            background-color: rgb(255, 255, 255);
+            border-radius: 30px;
+            box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.233);
+            grid-column: 2;
+        }
+        .img , .imgfile{
+            width: 100%;
+            height: 300px;
+            border-radius: 30px 30px 0 0 ;
+            
+        }
+        .title , .price , .color , .type{
+            text-align: center;
+            padding: 4px;
+            font-size: 15px;
+            word-wrap: break-word;
+    
+        }
+        .price{
+            color: brown;
+            font-weight: 600;
+            
+        }
+        
+    </style>
 </body>
 </html>
+

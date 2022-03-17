@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="045ed835-4994-4778-ad92-a07230cc3fc7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/islamic clothing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatorProject.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectfiles/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectfiles/main/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectfiles/main/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectfiles/main/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectfiles/main/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectfiles/main/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectfiles/main/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectfiles/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectfiles/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectfiles/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectfiles/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectfiles/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectfiles/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectfiles/projectfiles/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/projectfiles/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectfiles/projectfiles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/projectfiles/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -39,6 +39,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
@@ -79,6 +80,32 @@
       <option name="presentableId" value="Default" />
       <updated>1647437820632</updated>
     </task>
+    <task id="LOCAL-00001" summary="n2">
+      <created>1647438426591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647438426591</updated>
+    </task>
+    <task id="LOCAL-00002" summary="n2">
+      <created>1647438460267</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647438460267</updated>
+    </task>
+    <task id="LOCAL-00003" summary="n2">
+      <created>1647438498962</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647438498962</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="n2" />
+    <option name="LAST_COMMIT_MESSAGE" value="n2" />
   </component>
 </project>
