@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="045ed835-4994-4778-ad92-a07230cc3fc7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/projectfiles/img/p-1chernii.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectfiles/img/p-chernii_49yT2sP.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectfiles/img/yaponiya-rybak-sepiya-lodka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectfiles/main/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectfiles/main/templatetags/clothing_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectfiles/media/img/6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectfiles/media/img/7.jfif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectfiles/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectfiles/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/main/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectfiles/main/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/main/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectfiles/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectfiles/img/p-1chernii.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectfiles/img/p-chernii.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectfiles/img/p-chernii_49yT2sP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectfiles/img/yaponiya-rybak-sepiya-lodka.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/media/img/yaponiya-rybak-sepiya-lodka.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectfiles/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/main/templates/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectfiles/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/main/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectfiles/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectfiles/projectfiles/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectfiles/projectfiles/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,13 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647528322167</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="n4">
+      <created>1647531585637</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647531585637</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="n2" />
     <MESSAGE value="n3" />
-    <option name="LAST_COMMIT_MESSAGE" value="n3" />
+    <MESSAGE value="n4" />
+    <option name="LAST_COMMIT_MESSAGE" value="n4" />
   </component>
 </project>

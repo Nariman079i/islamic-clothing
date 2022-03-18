@@ -1,4 +1,4 @@
-
+{% load clothing_tags %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,74 +9,109 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="page">
-        {% for p in posts %}
-        {% if p.on_view_price == True %}
-        <div class="block">
-            <div class="img">
-                <img class="imgfile " src="{{ p.photo.url }}" width="300px" height="300px" alt="">
-            </div>
-            <div class="title">
-                {{ p.title }}
-            </div>
-            <div class="type">
-        {{ p.type_cl }}
-            </div>
-            <div class="color">
-                {{ p.color }}
-            </div>
-            <div class="price">
-                {{ p.price }}р
-            </div>
+    <div class="content">
+        <div class="header">
+            <p class="text">
+                JilBab|Sestram
+            </p>
+                </div>
+                <br>
+        <div class="page">
+            {% clo_tags as tags %}
+            <div class="page">
+                {% for p in tags  %}
+                {% if p.on_view_price == True %}
+                <div class="block">
+                    <div class="img">
+                        <img class="imgfile " src="{{ p.photo.url }}" width="300px" height="300px" alt="">
+                    </div>
+                    <div class="title">
+                        {{ p.title }}
+                    </div>
+                    <div class="type">
+                {{ p.type_cl }}
+                    </div>
+                    <div class="color">
+                        {{ p.color }}
+                    </div>
+                    <div class="price">
+                        {{ p.price }}р
+                    </div>
 
+                </div>
+                {% endif %}
+                {% endfor%}
+            </div>
         </div>
-        {% endif %}
-        {% endfor%}
+                <br>
+                <a class="butA" href="#">
+                    Подробнее
+                    B WhatsApp
+
+                </a>
     </div>
-    
+
     <style>
+
         * {
             font-family: sans-serif;
-            
+            color: #896e69;
         }
-        @media  screen and (max-width:768px) {
-            .page{
-            display: none;
-            
+        .content{
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .butA{
 
+            text-align: center;
+            color: aliceblue;
+            background-color: #ff1500;
+            border-radius: 30px;
+            padding: 13px;
         }
-        
-        .block{
-            grid-column: none;
+        .header{
+
+            width: 275px;
+            height: 50px;
+            text-align: center;
+            background: #896E69;
+            border-radius: 30px 10px 10px 30px;
         }
+        .text{
+            text-align: center;
+            color: #F9F9FF;
+           padding: 10px;
+            font-size: 30px;
         }
+
         .page{
             display:grid;
         }
         .block{
-           
+
             width: 300px;
             height: 400px ;
-            background-color: rgb(255, 255, 255);
+            background-color: #F9F9FF ;
             border-radius: 30px;
             box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.233);
-            grid-column: 2;
+
         }
         .img , .imgfile{
             width: 100%;
             height: 300px;
             border-radius: 30px 30px 0 0 ;
-            
+
         }
         .title , .price , .color , .type{
             text-align: center;
             padding: 4px;
             font-size: 15px;
             word-wrap: break-word;
-    
+
         }
         .price{
-            color: brown;
+            color: #ff1500;
             font-weight: 600;
             
         }
