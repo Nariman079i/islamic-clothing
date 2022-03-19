@@ -7,7 +7,7 @@ class Clothing(models.Model):
     photo = models.ImageField(verbose_name="Изображение" , upload_to="img/" , null=True )
     color = models.CharField(verbose_name="Цвет ткани" , max_length=40 , null=False)
     price = models.IntegerField(verbose_name="Цена" , default=0)
-    on_view_price = models.BooleanField(verbose_name="Отобразить цену" , default=True)
+    on_view_post = models.BooleanField(verbose_name="Отобразить публикацию" , default=True)
 
     def __str__(self):
         return self.title
@@ -15,7 +15,7 @@ class Clothing(models.Model):
     class Meta:
         verbose_name = 'Одежда'
         verbose_name_plural = 'Одежды'
-
+        ordering = ('-id',)
 
 class Types(models.Model):
     name = models.CharField(verbose_name="Тип ткани" , max_length=40 , null=False)

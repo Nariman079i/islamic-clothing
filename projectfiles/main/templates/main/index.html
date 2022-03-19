@@ -1,122 +1,264 @@
-{% load clothing_tags %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/instico.png" sizes="32x32">
+
+    <script type="text/javascript" src="main.js"></script>
+    <title>Jilbab.sestram</title>
 </head>
 <body>
-    <div class="content">
-        <div class="header">
-            <p class="text">
-                JilBab|Sestram
-            </p>
-                </div>
-                <br>
-        <div class="page">
-            {% clo_tags as tags %}
-            <div class="page">
-                {% for p in tags  %}
-                {% if p.on_view_price == True %}
-                <div class="block">
-                    <div class="img">
-                        <img class="imgfile " src="{{ p.photo.url }}" width="300px" height="300px" alt="">
-                    </div>
-                    <div class="title">
-                        {{ p.title }}
-                    </div>
-                    <div class="type">
-                {{ p.type_cl }}
-                    </div>
-                    <div class="color">
-                        {{ p.color }}
-                    </div>
-                    <div class="price">
-                        {{ p.price }}р
-                    </div>
+<div class="lgm">
+    <p align="center" style="margin-top: 40px; margin-bottom: 0px; font-size: 120px; color: white;">
+        JS
+    </p>
+    <p  align="center" style="margin: 0px; font-size: 25px; color: white;">Jilbab.sestram</p>
 
-                </div>
-                {% endif %}
-                {% endfor%}
-            </div>
+    
+    <hr color="white" width="250px" style="margin-bottom: 0;">
+    <p  align="center" style="margin: 0px; font-size: 25px; color: white;">c ❤ для сестёр</p>
+
+    <br><br><br><br><br>
+    <p align="center"><a class="buy" href="#d1">К заказу</a></p>
+    
         </div>
-                <br>
-                <a class="butA" href="#">
-                    Подробнее
-                    B WhatsApp
-
-                </a>
-    </div>
-
-    <style>
-
-        * {
-            font-family: sans-serif;
-            color: #896e69;
-        }
-        .content{
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .butA{
-
-            text-align: center;
-            color: aliceblue;
-            background-color: #ff1500;
-            border-radius: 30px;
-            padding: 13px;
-        }
-        .header{
-
-            width: 275px;
-            height: 50px;
-            text-align: center;
-            background: #896E69;
-            border-radius: 30px 10px 10px 30px;
-        }
-        .text{
-            text-align: center;
-            color: #F9F9FF;
-           padding: 10px;
-            font-size: 30px;
-        }
-
-        .page{
-            display:grid;
-        }
-        .block{
-
-            width: 300px;
-            height: 400px ;
-            background-color: #F9F9FF ;
-            border-radius: 30px;
-            box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.233);
-
-        }
-        .img , .imgfile{
-            width: 100%;
-            height: 300px;
-            border-radius: 30px 30px 0 0 ;
-
-        }
-        .title , .price , .color , .type{
-            text-align: center;
-            padding: 4px;
-            font-size: 15px;
-            word-wrap: break-word;
-
-        }
-        .price{
-            color: #ff1500;
-            font-weight: 600;
-            
-        }
+        <div class="lgm">
+            <p align="center" style="margin-top: 40px; margin-bottom: 0px; font-size: 40px; color: white;">
+                اسلام عليكم ورحمة الله وبركاته.
+            </p>
+            <p align="center" style="margin-top: 30px; margin-bottom: 0px; font-size: 25px; color: white;">
+                Приветствуем Вас на странице jilbab_sestram <br>
+                Мы занимаемся пошивом шариатского одеяния,<br>
+                как для  женщин так и для  мужчин
+            </p>
+        </div><br><br><br><br><br><br>
         
-    </style>
-</body>
-</html>
+        <div class="lgm">
+            <p align="center" style="margin-top: 40px; margin-bottom: 0px; font-size: 30px; color: white;">
+                Какие изделия мы не будем шить ?
+                
+                <hr align="center" color="white" width="300px" style="margin-top: 20px;  ">
+            </p>
+            <p align="center" style="margin-top: 30px; margin-bottom: 0px; font-size: 20px; color: white;">
+                <b>1. Плечевые изделия</b> —это абаи, полу абаи, кофты, туники, платья с рукавами. <br>
+                Исключение: зашью полноценные абаи только для тех, <br>
+                кто будет носить их с длинным химаром,<br>
+                    который закрывает бёдра, колени, руки,<br>
+                    и зашью все остальные вещи только для тех, <br>
+                    кто будет носить их с джильбабами; <br>
+            </p>
+            <p align="center" style="margin-top: 30px; margin-bottom: 0px; font-size: 20px; color: white;">
 
+                <b> 2. Короткие химары, химары с прорезями, бони, платки,</b> даже если говорят,<br>
+                    что будут только дома их носить;
+            </p>
+            <p align="center" style="margin-top: 30px; margin-bottom: 0px; font-size: 20px; color: white;">
+
+                <b>3. Намазные платья с капюшоном или шарфом. </b> <br>
+                Потому что это одеянии, которое не прикрывает плечи и грудь. 
+            </p>
+            
+        </div>
+        <div class="lgm">
+            <p align="center" style="margin-top: 40px; margin-bottom: 0px; font-size: 30px; color: white;">
+                Из каких тканей я не буду шить?
+                
+                <hr align="center" color="white" width="300px" style="margin-top: 20px;">
+            </p>
+            <p align="center" style="margin-top: 30px; margin-bottom: 0px; font-size: 20px; color: white;">
+
+                <b>1. Абайный шёлк.</b> <br>
+                Слишком красивая ткань, тонкая и липучая;  
+            </p>
+            <p align="center" style="margin-top: 30px; margin-bottom: 0px; font-size: 20px; color: white;">
+
+                <b>2. Купра.</b> <br>
+                Это светящеяся ткань, которая украшает девушку,<br>
+                    а это противоречит условиям шариатского покрывала; 
+            </p>
+            <p align="center" style="margin-top: 30px; margin-bottom: 0px; font-size: 20px; color: white;">
+
+                <b>3. Прадо. </b> <br>Очень тонкая ткань. <br> 
+                Исключение: Можно из неё шить двойной или тройной химар. 
+            </p>
+            <hr align="center" color="white" width="300px" style="margin-top: 20px;">
+            <p align="center" style="margin-top: 40px; margin-bottom: 0px; font-size: 30px; color: white;">
+                Дорогие сёстры, бойтесь Аллаха, Который наблюдает за вами,<br> и старайтесь носить соответствующее  шариату покрывало. <br>
+Если выйдет так, что заказали, утверждая, что будут только  дома носить,<br> а потом начали выходить в этом на улицу,<br> то вы понесёте тяжелое бремя грехи и за обман сёстры по вере и за то,<br> что не одеваетесь так, как положено. </p>
+            
+<hr align="center" color="white" width="300px" style="margin-top: 20px;">
+<p align="center" style="color: white; font-size: 120%;">
+    В НАЛИЧИИ
+    <hr align="center" class="hrm" color="white" width="300px" style="margin-top: 20px;">
+</p>
+    
+    <br>
+
+            {% for p in posts %}
+            {% if p.on_view_post == True %}
+    <div class="lgm1">
+        <p align="center" class="mtext"> 
+            
+            <img class="imgs" src="{{ p.photo.url }}" width="90%">
+            <br>
+            <p align="center" class="mtext">
+                {{ p.title }}
+                
+            </p>
+            <p align="center" class="mtext">
+                {{ p.type_cl }}<br>
+                
+            </p>
+            <p align="center" class="mtext">
+                {{ p.color }}<br>
+                
+            </p>
+        <p align="center" class="mtext">
+                {{ p.price }}.руб<br>
+
+            </p>
+        </p><br>
+        
+    </div>
+            <br>
+            {% endif %}
+            {% endfor %}
+    <br>
+   
+    <br>
+
+</div>
+<p align="center">
+    <button type="button" onclick="GetHrefInstagram()" id="buttn">
+        Наш Инстаграм
+    </button>
+    <button type="button" onclick="GetHrefComments()" id="buttn">
+        Отзывы
+    </button>
+    <a href="https://t.me/jilbabsestram" id="buttn">
+        Наш Телеграм
+    </a>
+
+    
+</p>
+<div class="lgm1">
+    
+    <br>
+    <p align="center" style="color: rgb(0, 0, 0);">#заказ</p>
+
+    <p align="center" style="width: 100%;"> 
+        <p align="center" id="comtext">Предоплата 100% <br><br>
+            <select name="" id="SelectMyLove" >
+
+                <option value="0">Джильбаб</option>
+                <option value="1">Джильбаб с юбкой</option>
+                <option value="2">Джильбаб с полу абаей</option>
+                <option value="3">Джильбаб с сарафаном</option>
+                <option value="4">Абая + химар</option>
+                <option value="5">Исдаль</option>
+                <option value="6">Намазник-исдаль</option>
+                <option value="7">Хиджаб/ джильбаб для маленьких девочек</option>
+                <option value="8">Мужской комплект (худи/свитшот+ штаны)</option>
+                <option value="8">Худи</option>
+                <option value="8">Свитшот</option>
+                <option value="8">Камис</option>
+            </select>
+        
+        <br><br>
+
+        <button type="button" onclick="GetWhatsApp()" id="buttn">
+             Продолжить в WhatsApp
+        </button>
+
+        <br></p>
+    </p>
+        
+    </p>
+    <br>
+</div>
+</body>
+<style>
+     @import url(img/Roboto-Thin.ttf);
+    .mtext{
+        color: white;
+        font-size: 120%; 
+    }
+   
+    #buttn{
+        
+        color: white; 
+        background-color: #3c6f70; 
+        border:1px solid ; 
+        border-radius: 12px;
+        padding: 10px;
+    }
+    .inptf ,#SelectMyLove , .SelectMyLove ,option{ 
+        
+        background-color:#ffffff ;
+        color: #3c6f70;
+        border: 2px solid white;
+
+        width: 60%;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 10px;
+    }
+    .buy{
+        padding:20px 50px ;
+        color: white;
+        border: 1px solid white;
+        border-radius: 30px;
+
+        transition: all 0.5s ease;
+    }
+    .buy:hover{
+        background-color: white;
+        color: #3c6f70;
+        transition: all 0.5s ease;
+    }
+    a{
+        text-decoration: none;
+    }
+    body{
+        background-color: #FFDAB9;
+        font-family: "Roboto";
+    }
+
+    .lgm , .lgm1{
+
+        width: 100%;
+        height: 100%;
+
+        background-size: cover;
+
+        
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lgm1{
+        width: 60%;
+        height: 100%;
+
+        border-radius: 30px;
+
+        border: 2px solid white;
+    }
+    .imgs{
+        margin-top: 20px;
+        border-radius: 15px;
+
+        transition: all 0.5s ease;
+    }
+    .imgs:hover{
+        box-shadow: 0 0 20px 5px white;
+
+        transition: all 0.5s ease;
+    }
+    
+
+</style>
+</html>
